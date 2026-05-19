@@ -1,5 +1,7 @@
 # web-kit
 
+[简体中文](./README.zh-CN.md)
+
 A skill bundle for AI coding agents (Claude Code, Copilot CLI, etc.) that gives them
 **three lightweight web primitives**: search, page reading, and authenticated download.
 Plus a self-hosted **single-container backend** that powers them all.

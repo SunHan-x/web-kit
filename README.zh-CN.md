@@ -1,5 +1,7 @@
 # web-kit
 
+[English](./README.md)
+
 一个面向 AI 编程代理（Claude Code、Copilot CLI 等）的技能包，提供
 **三个轻量级 Web 基元能力**：搜索、网页读取、鉴权下载。
 并附带一个可自托管的**单容器后端**来统一支撑这些能力。
@@ -118,7 +120,7 @@ curl http://localhost:9223/json/version | jq .Browser
    │              ↑                                                      │
    │              └─ /google、/ddg 端点 —— Chrome 渲染 HTML              │
    │                                                                     │
-   │  SearxNG (granian :8080) ── http://localhost:3100/{google,ddg}      ���
+   │  SearxNG (granian :8080) ── http://localhost:3100/{google,ddg}      │
    │       └─► host:8082                                                 │
    │                                                                     │
    │  watchdog.sh (60s 探测) ── 异常时 supervisorctl 重启                │
